@@ -1,0 +1,22 @@
+{
+  "name": "azure-function-servicebus-typescript",
+  "version": "1.0.0",
+  "main": "dist/src/{index.js,functions/*.js,functions/placeholders/*.json}",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf dist",
+    "start": "func start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/functions": "^4.7.2",
+    "firebase-admin": "^13.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.x",
+    "rimraf": "^5.0.0",
+    "typescript": "^5.8.3"
+  }
+}
